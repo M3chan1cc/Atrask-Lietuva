@@ -16,6 +16,23 @@
     color: var(--text-color);
 }
 
+.container {
+    max-width: 1900px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.video-container {
+    max-width: 1900px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.video-container video {
+    width: 100%;
+    height: 100%;
+}
+
 .hero {
     background-color: var(--background-color);
     padding: 50px;
@@ -41,14 +58,14 @@ header .ham {
     padding: 10px;
     background-color: var(--background-color);
     cursor: pointer;
-    z-index: 8;
+    z-index: 6;
 }
 
 header nav {
-    background-color: var(--nav-background);
+    background-color: rgba(189, 185, 185, 0.9);
     padding: 40px;
-    width: 20%;
-    height: 100vh;
+    width: 7%;
+    height: 80vh;
     position: fixed;
     top: 0;
     right: 0;
@@ -57,12 +74,16 @@ header nav {
     justify-content: center;
     text-align: center;
     z-index: 7;
+    border-radius: 25px;
     transform: translateX(100%);
     transition: transform 0.5s;
 }
 
 header nav.active {
     transform: translateX(0%);
+}
+header nav li {
+list-style-type: none;
 }
 
 header nav a {
@@ -146,16 +167,6 @@ video {
     width: 25px;
 }
 
-@media (max-width: 767px) {
-    .content h1 {
-        font-size: 30px;
-    }
-
-    .content h2 {
-        font-size: 18px;
-    }
-}
-
 .places {
     padding: 50px 20px;
     background-color: #f9f9f9;
@@ -164,7 +175,7 @@ video {
 .places h2 {
     text-align: center;
     font-size: 36px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     color: #333;
 }
 
@@ -229,7 +240,7 @@ video {
 .contact-us h2 {
     font-size: 36px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     color: black;
 }
 
@@ -252,6 +263,7 @@ video {
     border: 1px solid #050505;
     border-radius: 5px;
     color: black;
+    z-index: 10;
 }
 
 .contact-us button {
@@ -263,6 +275,7 @@ video {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    z-index: 10;
 }
 
 .contact-us button:hover {
@@ -294,10 +307,11 @@ video {
 }
 
 audio {
-    position: fixed;
+    position: absolute;
+    padding: 20px;
     bottom: 0px;
-    left: 20px;
-    z-index: 10;
+    left: 0px;
+    z-index: 100;
 }
 
 @media(max-width: 767px) {
@@ -308,3 +322,17 @@ audio {
         font-size: 18px;
     }
 }
+
+.footer {
+    background-color: #f8f8f8;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #e7e7e7;
+}
+
+.footer p {
+    margin: 0;
+    color: #555;
+    font-size: 14px;
+}
+
