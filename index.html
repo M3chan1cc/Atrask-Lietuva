@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore Lithuania</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+<section class="hero">
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Explore Lithuania Logo">
+        </div>
+        <img src="images/burger-menu.svg" alt="Menu" class="ham">
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#places">Explore</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#aboutme">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="content-wrap">
+        <div class="content">
+            <h1>Discover Lithuania</h1>
+            <h2>Most Beautiful Places in Lithuania</h2>
+            <a href="#places">Explore</a>
+        </div>
+        <div class="social-icons">
+            <ul>
+                <li><a href="https://www.facebook.com/Lliinnaas/"><img src="images/facebook.png" alt="Facebook"></a></li>
+                <li><a href="https://www.instagram.com/lliiinnas/"><img src="images/instagram.png" alt="Instagram"></a></li>
+                <li><a href="https://github.com/M3chan1cc"><img src="images/github.png" alt="GitHub"></a></li>
+                <li><a href="https://www.tiktok.com/@linas0"><img src="images/tik-tok.png" alt="TikTok"></a></li>
+            </ul>
+        </div>
+    </div>
+    <video src="images/nature.mp4" autoplay muted loop></video>
+</section>
+
+<section id="places" class="places">
+    <div class="container">
+        <h2>Explore Our Top Places</h2>
+        <div class="place-list">
+            <div class="place-entry" onclick="openVideo('https://www.youtube.com/watch?v=O_e-40z0yoE')">
+                <img src="images/rambynas.JPG" alt="Rambynas hill">
+                <div class="place-info">
+                    <h3>Rambynas hill</h3>
+                    <p>The sacred hill is surrounded by many legends and stories. According to one of them, the altar stone was put on Rambynas by thunder god Perkūnas who also buried a treasure of gold and silver harrow under the stone. Perkūnas then chose the hill and his home. Another story has it that the altar stone was brought by giant Rambynas, one of three sons of Nemunas, who offered it as a sacrifice to Perkūnas. The hill became a temple attended by priests (krivis) and priestess (vaidilutė). They were driven away by the Teutonic Order, but laumės cursed the stone – while the stone stood, good fortune would bless the region; if the stone was damaged, bad fortunes would follow.</p>
+                </div>
+            </div>
+            <div class="place-entry" onclick="openVideo('https://www.youtube.com/watch?v=lOxWUIdOO1k')">
+                <img src="images/aukstumala.jpg" alt="Aukštumala Educational Trail">
+                <div class="place-info">
+                    <h3>Aukštumala Educational Trail</h3>
+                    <p>This pathway winds through a raised bog that looks like a setting for pagan fairy tales, with its beautiful flowers and rare songbirds. The 2.4 kilometre-long trail is equipped with display boards telling the story of the bog and the people who tried to tame it.</p>
+                </div>
+            </div>
+            <div class="place-entry" onclick="openVideo('https://www.youtube.com/watch?v=C7duefb6Khw')">
+                <img src="images/hillofcrosses.jpg" alt="Hill of Crosses">
+                <div class="place-info">
+                    <h3>Hill of Crosses</h3>
+                    <p>The Hill of Crosses is a sacred place in the Šiauliai region with especially vast spaces for meditations of faith and manifestations of one’s love to God. It is here that Lithuania has passed through Golgotha, its people have experienced so much pain and misfortunes. Namely here revives the sincerest belief in our Saviours sacrifice, love finds response in one’s heart, hopes become stronger.</p>
+                </div>
+            </div>
+            <div class="place-entry" onclick="openVideo('https://www.youtube.com/watch?v=rz7qsgPdvX8')">
+                <img src="images/velniodube.jpg" alt="Devils Pit">
+                <div class="place-info">
+                    <h3>Devils Pit</h3>
+                    <p>Once there was a man who wanted to marry a girl he liked. Unfortunately, he was married already, so he could not marry her in the church. He ignored the prohibition, threatened the priest with a sword, and made him solemnize their marriage. As soon as the groom started saying his wedding vows, the church suddenly collapsed into the ground, taking the couple with it. The ringing of the church bell could be heard for the next three days. Devils have their midnight feast here. People say that they could hear the devils screaming and raving. Those who pass by at night can see devils, so no one dares to go close to the Pit in the dark. That is the reason why this horrifying place was named the damned Devil’s Pit.</p>
+                </div>
+            </div>
+            <div class="place-entry" onclick="openVideo('https://www.youtube.com/watch?v=10FTyKHHcss')">
+                <img src="images/hillofangels.jpg" alt="The Hill of Angels">
+                <div class="place-info">
+                    <h3>The Hill of Angels</h3>
+                    <p>This is a place for fostering human devotion and spirituality. It is spotted with plenty of finely crafted wooden angel sculptures, wrought sun-like crosses, and life trees decorated with traditional national symbols. In 2009, the Hill of Angels was created to honor Lithuania’s 1000th anniversary and the 600th anniversary of the Basilica of the Visitation of the Blessed Virgin Mary in Trakai. As a result, 18 angel sculptures found a new home on the Hill! The Hill of Angels is today also referred to as the Path of the Millennium Signs.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact-us">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</section>
+
+<button id="scroll-to-top" title="Scroll to Top">Top</button>
+
+<audio autoplay controls loop>
+    <source src="audio/background-music.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+
+<script src="javascripts/scripts.js">
+</script>
+</body>
+</html>
