@@ -323,6 +323,15 @@ audio {
     }
 }
 
+@media (max-width: 767px) {
+    audio {
+        position:absolute;
+        top: 0px;
+        right: 0px;
+        padding: 20px;
+    }
+}
+
 .footer {
     background-color: #f8f8f8;
     padding: 20px 0;
