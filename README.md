@@ -1,4 +1,4 @@
-<h1 align="center">🌟 Interactive HTML Website 🌟</h1>
+<h1 align="center">🌟 Responsive HTML Website 🌟</h1>
 
 <p align="center">
   A simple yet cool HTML website about Lithuania and the Top 5 beautiful places in my opinion 😄
