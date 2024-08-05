@@ -23,7 +23,7 @@
 
 1. Clone the repository:
    ```bash
-   gh repo clone M3chan1cc/Atrask-Lietuva
+   gh repo clone M3chan1cc/Responsive-Website.-HTML-CSS-JScript
 
 2. Navigate to the project directory:
 
