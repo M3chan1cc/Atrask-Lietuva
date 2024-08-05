@@ -345,3 +345,18 @@ audio {
     font-size: 14px;
 }
 
+.close-nav {
+    display: absolute;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 0; 
+}
+
+.close-nav img {
+    width: 24px; 
+    height: 24px; 
+}
